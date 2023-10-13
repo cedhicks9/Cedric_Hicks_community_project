@@ -1,0 +1,306 @@
+*{
+    margin: 0%;
+
+}
+Body{
+width: 100%;
+min-height: 100vh;
+
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family:'fuggles',sans-serif;
+    font-size: 250px;
+}
+#row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: #2b52bc;
+    font-size: 100px;
+
+}
+#rowtwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+    font-family:'anton',sans-serif ;
+    font-size: 90px;
+    background-color: rgb(69, 69, 69);
+
+
+
+}
+#focus{ 
+    background-color: rgb(69, 69, 69);
+    font-family:'anton',sans-serif ;
+    font-size: 75px;
+     transition-property: opacity;
+    transition-duration: 5s;
+    transition-timing-function: ease-out;
+    transition-delay: none;
+
+}
+#focus:hover{
+    opacity: 5%;
+
+}
+#rowthree{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: right;
+    text-align: start;
+    width: 100%;
+    height: 100vh;
+    font-family: 'fuggles', sans-serif;
+    font-size: 75px;
+    background-color: rgb(194, 230, 16);
+
+}
+#cope{
+    font-family: 'fuggles', sans-serif;
+    font-size: 250px;
+    transition-property: all; 
+    transition-duration: 6s; 
+ transition-timing-function: ease-out; 
+ transition-delay: none; 
+ position: relative;
+    
+ 
+}
+#cope:hover{
+   /* transform: translateX(90%) translateY(1500%);
+ -webkit-transform: translateX(90%) translateY(80%);
+ -moz-transform: translateX(90%) translateY(80%);
+ -ms-transform: translateX(90%) translateY(80%);
+ -o-transform: translateX(90%) translateY(80%);*/
+ transform: rotateX(1000deg);
+
+}
+#rowfour{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:left;
+    text-align: right;
+    width: 100%;
+    height: 100vh;
+    font-family: 'fuggles', sans-serif;
+    font-size: 75px;
+    background-color: rgb(167, 60, 33);
+
+}
+#insulted{
+text-align: left;
+animation-name: insult;
+animation-delay: none;
+animation-direction: forwards;
+animation-duration: 6s;
+animation-fill-mode:forwards;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+
+}
+#rowfive{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:left;
+    text-align: right;
+    width: 100%;
+    height: 100vh;
+    font-family: 'quantico', sans-serif;
+    font-size: 75px;
+    background-color: rgb(145, 162, 182);
+
+}
+#results
+{
+   text-align: center;
+    font-family: 'quantico', sans-serif;
+    font-size: 75px;
+    background-color: rgb(145, 162, 182);
+    animation-name: result;
+    animation-delay: none;
+    animation-direction: forwards;
+    animation-duration: 5s;
+    animation-fill-mode:reverse ;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+
+
+}
+#rowsix{ 
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:left;
+    text-align: right;
+    width: 100%;
+    height: 100vh;
+    font-family: 'black ops', sans-serif;
+    font-size: 75px;
+background-color: darkgreen ;
+
+    animation-name: rsix;
+animation-delay: none;
+animation-direction: forwards;
+animation-duration: 6s;
+animation-fill-mode:reverse ;
+animation-iteration-count: 1;
+animation-timing-function: ease-in-out; 
+
+
+}
+#coffin
+{
+    padding: 10%;
+    font-family: 'black ops', sans-serif;
+    font-size: 200px;
+    position:relative ; 
+
+    animation-name: cofin;
+    animation-delay: none;
+    animation-direction: forwards;
+    animation-duration: 6s;
+    animation-fill-mode:reverse ;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+
+}
+#rowseven{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:left;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'fira mono', sans-serif;
+    font-size: 75px;
+background-color: rgb(114, 128, 89) ;
+
+}
+#quitting
+{
+
+}
+#grey{
+    color: gray;
+}
+
+
+
+
+#hopeless { 
+    text-decoration:none;
+    font-family: 'Fuggles', sans-serif;
+    text-decoration-color: darkgreen;
+
+    padding: 5%;
+    font-size: 50px; 
+     position:relative ; 
+
+animation-name: fourSquare;
+animation-delay: none;
+animation-direction: reverse;
+animation-duration: 6s;
+animation-fill-mode:reverse ;
+animation-iteration-count: 1;
+animation-timing-function: ease-in-out;
+
+}
+@keyframes fourSquare {
+    from{
+        margin-left: 100%;
+        font-size: 0;
+        color: darkgreen;
+
+    }
+    to{
+        margin-right: 0%;
+        font-size: 200px;
+        color: greenyellow;
+        transform: rotateX(1000deg);
+
+    }
+  
+}
+@keyframes insult {
+    from{
+        margin-left: 100%;
+        font-size: 0;
+        color: darkgreen;
+
+    }
+    to{
+        margin-right: 0%;
+        font-size: 200px;
+        color: greenyellow;
+       font-family: 'cinzel decoration',serif;
+
+    }
+  
+}
+@keyframes result {
+    from{
+        margin-top:50%;
+        font-size: 100;
+        color: darkgreen;
+
+    }
+    to{
+        margin-bottom: 50%;
+        font-size: 250px;
+        color: greenyellow;
+        transform: rotatey(1000deg) skew(60deg);
+
+    }
+  
+}
+@keyframes cofin {
+    from{
+        margin-top: 75%;
+        font-size: 175px;
+        background-color: darkgreen;
+
+    }
+    to{
+        margin-bottom: 5%;
+        font-size: 20px;
+        background-color: rgb(42, 17, 85);
+        transform: scaleY(50%)
+
+    }
+  
+}
+@keyframes rsix {
+    from{
+        
+        
+        background-color: darkgreen;
+
+    }
+    to{
+        
+        
+        background-color: rgb(42, 17, 85);
+        
+
+    }
+  
+} 
