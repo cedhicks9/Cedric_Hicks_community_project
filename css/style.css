@@ -195,14 +195,75 @@ animation-timing-function: ease-in-out;
 background-color: rgb(114, 128, 89) ;
 
 }
+
+
 #quitting
 {
 
+    animation-name: cant;
+    animation-delay: none;
+    animation-direction: forwards;
+    animation-duration: 6s;
+    animation-fill-mode:reverse ;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+
 }
+#roweight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:left;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'fira mono', sans-serif;
+    font-size: 75px;
+    background-color: rgb(95, 65, 95);
+
+}
+#lyricinfo{
+    font-size: 35px;
+}
+#often{
+
+}
+#coloropt{
+    color: gold;
+
+}
+
 #grey{
     color: gray;
 }
+#colorfocus{
+    color: rgb(209, 155, 17);
+}
+#colorcope{
+    color: goldenrod;
+}
+#colorinsult{
+    color: ghostwhite;
+}
+#colorresult{
+    color: powderblue;
+}
+#colorcoffin{
+    color: crimson;
+}
+#colorquit{
+    color: darkgreen;
+}
+#cantquit{
+    animation-name: noquit;
+    animation-delay: none;
+    animation-direction: forwards;
+    animation-duration: 6s;
+    animation-fill-mode:forwards ;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
 
+}
 
 
 
@@ -304,3 +365,22 @@ animation-timing-function: ease-in-out;
     }
   
 } 
+@keyframes cant{
+    from{
+        font-size: 75px;
+    }
+    to{
+        font-size: 250px;
+    }
+}
+@keyframes noquit{
+    from{font-size: 0px;
+
+    }
+    to{
+        font-size: 100px;
+        text-decoration-line: line-through;
+
+    }
+}
+
