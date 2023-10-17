@@ -68,7 +68,7 @@ p{
     height: 100vh;
     font-family: 'fuggles', sans-serif;
     font-size: 75px;
-    background-color: rgb(88, 94, 58);
+    background-color: rgb(117, 122, 89);
 
 }
 #cope{
@@ -102,7 +102,7 @@ p{
     font-family: 'fuggles', sans-serif;
     font-size: 100px;
     color: rgb(3, 52, 52);
-    background-color: rgb(167, 60, 33);
+    background-color: rgb(238, 78, 39);
 
 }
 #insulted{
@@ -374,6 +374,7 @@ animation-timing-function: ease-in-out;
     }
     to{
         font-size: 250px;
+        transform: skewX(90deg);
     }
 }
 @keyframes noquit{
