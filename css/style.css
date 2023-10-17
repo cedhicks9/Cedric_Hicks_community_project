@@ -22,8 +22,9 @@ p{
     text-align: start;
     width: 100%;
     height: 100vh;
-    background-color: white;
-    color: #2b52bc;
+    background-color: rgb(204, 230, 236);
+    font-family: 'bebas neue',sans-serif;
+    color: #090643;
     font-size: 100px;
 
 }
@@ -38,13 +39,13 @@ p{
     text-align: left;
     font-family:'anton',sans-serif ;
     font-size: 90px;
-    background-color: rgb(69, 69, 69);
+    background-color: rgb(140, 135, 135);
 
 
 
 }
 #focus{ 
-    background-color: rgb(69, 69, 69);
+    background-color: rgb(140, 135, 135);
     font-family:'anton',sans-serif ;
     font-size: 75px;
      transition-property: opacity;
@@ -67,7 +68,7 @@ p{
     height: 100vh;
     font-family: 'fuggles', sans-serif;
     font-size: 75px;
-    background-color: rgb(194, 230, 16);
+    background-color: rgb(88, 94, 58);
 
 }
 #cope{
@@ -99,7 +100,8 @@ p{
     width: 100%;
     height: 100vh;
     font-family: 'fuggles', sans-serif;
-    font-size: 75px;
+    font-size: 100px;
+    color: rgb(3, 52, 52);
     background-color: rgb(167, 60, 33);
 
 }
@@ -119,7 +121,7 @@ animation-timing-function: ease-in;
     flex-direction: column;
     justify-content: space-around;
     align-items:left;
-    text-align: right;
+    text-align: center;
     width: 100%;
     height: 100vh;
     font-family: 'quantico', sans-serif;
@@ -378,7 +380,7 @@ animation-timing-function: ease-in-out;
 
     }
     to{
-        font-size: 100px;
+        font-size: 80px;
         text-decoration-line: line-through;
 
     }
