@@ -1,388 +1,329 @@
-*{
-    margin: 0%;
-
+* {
+  margin: 0%;
 }
-Body{
-width: 100%;
-min-height: 100vh;
-
+Body {
+  width: 100%;
+  min-height: 100vh;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-p{
-    font-family:'fuggles',sans-serif;
-    font-size: 250px;
+p {
+  font-family: "fuggles", sans-serif;
+  font-size: 250px;
 }
-#row{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: start;
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(204, 230, 236);
-    font-family: 'bebas neue',sans-serif;
-    color: #090643;
-    font-size: 100px;
-
+#row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: start;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(204, 230, 236);
+  font-family: "bebas neue", sans-serif;
+  color: #090643;
+  font-size: 100px;
 }
-#rowtwo{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: start;
-    width: 100%;
-    height: 100vh;
-    text-align: left;
-    font-family:'anton',sans-serif ;
-    font-size: 90px;
-    background-color: rgb(140, 135, 135);
-
-
-
+#rowtwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: start;
+  width: 100%;
+  height: 100vh;
+  text-align: left;
+  font-family: "anton", sans-serif;
+  font-size: 90px;
+  background-color: rgb(140, 135, 135);
 }
-#focus{ 
-    background-color: rgb(140, 135, 135);
-    font-family:'anton',sans-serif ;
-    font-size: 75px;
-     transition-property: opacity;
-    transition-duration: 5s;
-    transition-timing-function: ease-out;
-    transition-delay: none;
-
+#focus {
+  background-color: rgb(140, 135, 135);
+  font-family: "anton", sans-serif;
+  font-size: 75px;
+  transition-property: opacity;
+  transition-duration: 5s;
+  transition-timing-function: ease-out;
+  transition-delay: none;
 }
-#focus:hover{
-    opacity: 5%;
-
+#focus:hover {
+  opacity: 5%;
 }
-#rowthree{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: right;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-    font-family: 'fuggles', sans-serif;
-    font-size: 75px;
-    background-color: rgb(117, 122, 89);
-
+#rowthree {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: right;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "fuggles", sans-serif;
+  font-size: 75px;
+  background-color: rgb(183, 188, 154);
 }
-#cope{
-    font-family: 'fuggles', sans-serif;
-    font-size: 250px;
-    transition-property: all; 
-    transition-duration: 6s; 
- transition-timing-function: ease-out; 
- transition-delay: none; 
- position: relative;
-    
- 
+#cope {
+  font-family: "fuggles", sans-serif;
+  font-size: 250px;
+  transition-property: all;
+  transition-duration: 6s;
+  transition-timing-function: ease-out;
+  transition-delay: none;
+  position: relative;
 }
-#cope:hover{
-
- transform: rotateX(1000deg);
-
+#cope:hover {
+  transform: rotateX(1000deg);
 }
-#rowfour{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items:left;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-    font-family: 'fuggles', sans-serif;
-    font-size: 100px;
-    color: rgb(3, 52, 52);
-    background-color: rgb(238, 78, 39);
-
+#rowfour {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "fuggles", sans-serif;
+  font-size: 100px;
+  color: rgb(3, 52, 52);
+  background-color: rgb(238, 78, 39);
 }
-#insulted{
-text-align: center;
-animation-name: insult;
-animation-delay: none;
-animation-direction: forwards;
-animation-duration: 6s;
-animation-fill-mode:forwards;
-animation-iteration-count: 1;
-animation-timing-function: ease-in;
-
+#insulted {
+  text-align: center;
+  animation-name: insult;
+  animation-delay: none;
+  animation-direction: forwards;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
 }
-#rowfive{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items:left;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-    font-family: 'quantico', sans-serif;
-    font-size: 75px;
-    background-color: rgb(145, 162, 182);
-
+#rowfive {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "quantico", sans-serif;
+  font-size: 75px;
+  background-color: rgb(145, 162, 182);
 }
-#results
-{
-   text-align: center;
-    font-family: 'quantico', sans-serif;
-    font-size: 75px;
-    background-color: rgb(145, 162, 182);
-    animation-name: result;
-    animation-delay: none;
-    animation-direction: forwards;
-    animation-duration: 5s;
-    animation-fill-mode:reverse ;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-
-
+#results {
+  text-align: center;
+  font-family: "quantico", sans-serif;
+  font-size: 75px;
+  background-color: rgb(145, 162, 182);
+  animation-name: result;
+  animation-delay: none;
+  animation-direction: forwards;
+  animation-duration: 5s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
 }
-#rowsix{ 
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items:left;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-    font-family: 'black ops', sans-serif;
-    font-size: 60px;
-background-color: darkgreen ;
-color: azure;
+#rowsix {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "black ops", sans-serif;
+  font-size: 60px;
+  background-color: darkgreen;
+  color: azure;
 
-    animation-name: rsix;
-animation-delay: none;
-animation-direction: forwards;
-animation-duration: 6s;
-animation-fill-mode:forwards ;
-animation-iteration-count: 1;
-animation-timing-function: ease-in-out; 
-
-
+  animation-name: rsix;
+  animation-delay: none;
+  animation-direction: forwards;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
 }
-#coffin
-{
+#coffin {
+  font-family: "black ops", sans-serif;
+  font-size: 200px;
+  position: relative;
 
-    font-family: 'black ops', sans-serif;
-    font-size: 200px;
-    position:relative ; 
-
-    animation-name: cofin;
-    animation-delay: none;
-    animation-direction: forwards;
-    animation-duration: 6s;
-    animation-fill-mode:reverse ;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-
+  animation-name: cofin;
+  animation-delay: none;
+  animation-direction: forwards;
+  animation-duration: 6s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
 }
-#rowseven{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items:left;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-    font-family: 'fira mono', sans-serif;
-    font-size: 75px;
-background-color: rgb(114, 128, 89) ;
-
+#rowseven {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "fira mono", sans-serif;
+  font-size: 75px;
+  background-color: rgb(114, 128, 89);
 }
 
-
-#quitting
-{
-
-    animation-name: cant;
-    animation-delay: none;
-    animation-direction: forwards;
-    animation-duration: 6s;
-    animation-fill-mode:reverse ;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-
+#quitting {
+  animation-name: cant;
+  animation-delay: none;
+  animation-direction: forwards;
+  animation-duration: 6s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
 }
-#roweight{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items:left;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-    font-family: 'quantico', sans-serif;
-    font-size: 75px;
-    background-color: rgb(152, 132, 152);
-
+#roweight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "quantico", sans-serif;
+  font-size: 75px;
+  background-color: rgb(152, 132, 152);
 }
-#lyricinfo{
-    font-size: 35px;
+#lyricinfo {
+  font-size: 35px;
 }
-#often{
-
+#often {
 }
-#coloropt{
-    color: gold;
-
+#coloropt {
+  color: gold;
 }
 
-#grey{
-    color: gray;
+#grey {
+  color: gray;
 }
-#colorfocus{
-    color: rgb(209, 155, 17);
+#colorfocus {
+  color: rgb(209, 155, 17);
 }
-#colorcope{
-    color: goldenrod;
+#colorcope {
+  color: rgb(128, 92, 2);
 }
-#colorinsult{
-    color: ghostwhite;
+#colorinsult {
+  color: ghostwhite;
 }
-#colorresult{
-    color: powderblue;
+#colorresult {
+  color: powderblue;
 }
-#colorcoffin{
-    color: crimson;
+#colorcoffin {
+  color: crimson;
 }
-#colorquit{
-    color: darkgreen;
+#colorquit {
+  color: darkgreen;
 }
-#cantquit{
-    animation-name: noquit;
-    animation-delay: none;
-    animation-direction: forwards;
-    animation-duration: 6s;
-    animation-fill-mode:forwards ;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
+#cantquit {
+  animation-name: noquit;
+  animation-delay: none;
+  animation-direction: forwards;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
 
-}
+#hopeless {
+  text-decoration: none;
+  font-family: "Fuggles", sans-serif;
+  text-decoration-color: darkgreen;
 
+  padding: 5%;
+  font-size: 50px;
+  position: relative;
 
-
-#hopeless { 
-    text-decoration:none;
-    font-family: 'Fuggles', sans-serif;
-    text-decoration-color: darkgreen;
-
-    padding: 5%;
-    font-size: 50px; 
-     position:relative ; 
-
-animation-name: hope;
-animation-delay: none;
-animation-direction: reverse;
-animation-duration: 6s;
-animation-fill-mode:reverse ;
-animation-iteration-count: 1;
-animation-timing-function: ease-in-out;
-
+  animation-name: hope;
+  animation-delay: none;
+  animation-direction: reverse;
+  animation-duration: 6s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
 }
 @keyframes hope {
-    from{
-        margin-left:100%;
-        font-size: 0;
-        color: darkgreen;
+  from {
+    margin-left: 100%;
+    font-size: 0;
+    color: darkgreen;
+  }
+  to {
+    margin-right: 0%;
+    font-size: 200px;
 
-    }
-    to{
-        margin-right:0%;
-        font-size: 200px;
-        
-        color: greenyellow;
-        transform: rotateX(1000deg);
-
-    }
-  
+    color: greenyellow;
+    transform: rotateX(1000deg);
+  }
 }
 @keyframes insult {
-    from{
-        margin-left: 100%;
-        font-size: 0;
-        color: darkgreen;
+  from {
+    margin-left: 100%;
+    font-size: 0;
+    color: darkgreen;
+  }
+  to {
+    margin-right: 0%;
+    font-size: 200px;
 
-    }
-    to{
-        margin-right: 0%;
-        font-size: 200px;
-      
-        color: greenyellow;
-       font-family: 'cinzel decoration',serif;
-
-    }
-  
+    color: greenyellow;
+    font-family: "cinzel decoration", serif;
+  }
 }
 @keyframes result {
-    from{
-        margin-top:50%;
-        font-size: 100;
-        color: darkgreen;
-
-    }
-    to{
-        margin-bottom: 50%;
-        font-size: 250px;
-        color: greenyellow;
-        transform: rotatey(1000deg) skew(60deg);
-
-    }
-  
+  from {
+    margin-top: 50%;
+    font-size: 100;
+    color: darkgreen;
+  }
+  to {
+    margin-bottom: 50%;
+    font-size: 250px;
+    color: greenyellow;
+    transform: rotatey(1000deg) skew(60deg);
+  }
 }
 @keyframes cofin {
-    from{
-        margin-top: 75%;
-        font-size: 175px;
-        background-color: darkgreen;
-
-    }
-    to{
-        margin-bottom: 5%;
-        font-size: 20px;
-        background-color: rgb(42, 17, 85);
-        transform: scaleY(50%)
-
-    }
-  
+  from {
+    margin-top: 75%;
+    font-size: 175px;
+    background-color: darkgreen;
+  }
+  to {
+    margin-bottom: 5%;
+    font-size: 20px;
+    background-color: rgb(42, 17, 85);
+    transform: scaleY(50%);
+  }
 }
 @keyframes rsix {
-    from{
-        
-        
-        background-color: darkgreen;
-
-    }
-    to{
-        
-        
-        background-color: rgb(42, 17, 85);
-        
-
-    }
-  
-} 
-@keyframes cant{
-    from{
-        font-size: 75px;
-    }
-    to{
-        font-size: 250px;
-        transform: skewX(90deg);
-    }
+  from {
+    background-color: darkgreen;
+  }
+  to {
+    background-color: rgb(42, 17, 85);
+  }
 }
-@keyframes noquit{
-    from{font-size: 0px;
-
-    }
-    to{
-        font-size: 60px;
-        text-decoration-line: line-through;
-
-    }
+@keyframes cant {
+  from {
+    font-size: 75px;
+  }
+  to {
+    font-size: 250px;
+    transform: skewX(90deg);
+  }
 }
-
+@keyframes noquit {
+  from {
+    font-size: 0px;
+  }
+  to {
+    font-size: 60px;
+    text-decoration-line: line-through;
+  }
+}
