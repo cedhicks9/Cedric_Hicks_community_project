@@ -164,8 +164,8 @@ p {
   text-align: center;
   width: 100%;
   height: 100vh;
-  font-family: "fira mono", sans-serif;
-  font-size: 75px;
+  font-family: "fuggles", sans-serif;
+  font-size: 200px;
   background-color: rgb(114, 128, 89);
 }
 
@@ -291,12 +291,11 @@ p {
 @keyframes cofin {
   from {
     margin-top: 75%;
-    font-size: 175px;
+    font-size: 5px;
     background-color: darkgreen;
   }
   to {
     margin-bottom: 5%;
-    font-size: 20px;
     background-color: rgb(42, 17, 85);
     transform: scaleY(50%);
   }
@@ -311,7 +310,7 @@ p {
 }
 @keyframes cant {
   from {
-    font-size: 75px;
+    font-size: 100px;
   }
   to {
     font-size: 250px;
