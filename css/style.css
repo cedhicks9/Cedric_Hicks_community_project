@@ -63,7 +63,7 @@ p{
     flex-direction: column;
     justify-content: space-around;
     align-items: right;
-    text-align: start;
+    text-align: center;
     width: 100%;
     height: 100vh;
     font-family: 'fuggles', sans-serif;
@@ -83,11 +83,7 @@ p{
  
 }
 #cope:hover{
-   /* transform: translateX(90%) translateY(1500%);
- -webkit-transform: translateX(90%) translateY(80%);
- -moz-transform: translateX(90%) translateY(80%);
- -ms-transform: translateX(90%) translateY(80%);
- -o-transform: translateX(90%) translateY(80%);*/
+
  transform: rotateX(1000deg);
 
 }
@@ -96,7 +92,7 @@ p{
     flex-direction: column;
     justify-content: space-around;
     align-items:left;
-    text-align: right;
+    text-align: center;
     width: 100%;
     height: 100vh;
     font-family: 'fuggles', sans-serif;
@@ -106,7 +102,7 @@ p{
 
 }
 #insulted{
-text-align: left;
+text-align: center;
 animation-name: insult;
 animation-delay: none;
 animation-direction: forwards;
@@ -146,7 +142,7 @@ animation-timing-function: ease-in;
 
 }
 #rowsix{ 
-    padding: 5%;
+   
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -171,7 +167,7 @@ animation-timing-function: ease-in-out;
 }
 #coffin
 {
-    padding: 10%;
+
     font-family: 'black ops', sans-serif;
     font-size: 200px;
     position:relative ; 
@@ -220,7 +216,7 @@ background-color: rgb(114, 128, 89) ;
     text-align: center;
     width: 100%;
     height: 100vh;
-    font-family: 'fira mono', sans-serif;
+    font-family: 'quantico', sans-serif;
     font-size: 75px;
     background-color: rgb(152, 132, 152);
 
@@ -279,7 +275,7 @@ background-color: rgb(114, 128, 89) ;
     font-size: 50px; 
      position:relative ; 
 
-animation-name: fourSquare;
+animation-name: hope;
 animation-delay: none;
 animation-direction: reverse;
 animation-duration: 6s;
@@ -288,16 +284,17 @@ animation-iteration-count: 1;
 animation-timing-function: ease-in-out;
 
 }
-@keyframes fourSquare {
+@keyframes hope {
     from{
-        margin-left: 100%;
+        margin-left:100%;
         font-size: 0;
         color: darkgreen;
 
     }
     to{
-        margin-right: 0%;
+        margin-right:0%;
         font-size: 200px;
+        
         color: greenyellow;
         transform: rotateX(1000deg);
 
@@ -314,6 +311,7 @@ animation-timing-function: ease-in-out;
     to{
         margin-right: 0%;
         font-size: 200px;
+      
         color: greenyellow;
        font-family: 'cinzel decoration',serif;
 
@@ -382,7 +380,7 @@ animation-timing-function: ease-in-out;
 
     }
     to{
-        font-size: 80px;
+        font-size: 60px;
         text-decoration-line: line-through;
 
     }
